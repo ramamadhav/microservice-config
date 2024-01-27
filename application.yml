@@ -1,3 +1,6 @@
+spring:
+  application:
+    name: CONFIG-DEAULT
 #server related
 eureka:
   instance:
@@ -7,3 +10,5 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8761/eureka
+
+  
